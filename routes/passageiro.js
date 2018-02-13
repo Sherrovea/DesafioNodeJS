@@ -3,7 +3,7 @@ var express = require('express');
 var router = express.Router();
 
 var mongoose = require('mongoose');
-mongoose.connect("mongodb://localhost:27017/testeSher");
+mongoose.connect("mongodb://teste:teste@ds235418.mlab.com:35418/testesher");
 var db = mongoose.connection;
 var SchemaEntidade = mongoose.Schema({
     nome: String,
