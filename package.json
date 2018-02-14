@@ -7,7 +7,7 @@
   },
   "description": "TesteSher",
   "author": {
-    "name": "jh_vs"
+    "name": "sher"
   },
   "dependencies": {
     "body-parser": "^1.15.0",
